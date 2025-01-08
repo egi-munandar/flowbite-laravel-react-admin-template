@@ -118,9 +118,12 @@ export default function FlowbiteLayout({ children }) {
             </Sidebar>
 
             <div className="p-4 pt-12 sm:ml-64">{children}</div>
-            <Footer container className="fixed bottom-0 border-t">
-                <Footer.Copyright href="#" by="Egi Munandar" year={2025} />
-                <Footer.LinkGroup>About</Footer.LinkGroup>
+            <Footer container className="fixed bottom-0 w-full sm:ml-64">
+                <Footer.Copyright
+                    href="https://github.com/egi-munandar/flowbite-laravel-react-admin-template"
+                    by="Egi Munandar"
+                    year={2025}
+                />
             </Footer>
         </Fragment>
     );
